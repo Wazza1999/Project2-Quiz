@@ -29,11 +29,18 @@ body{
 }
 /*Question title*/
 .app h1{
+    background-image: url(../assets/images/pikachu-header.png);
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
     font-size: 70px;
     font-family: 'Jersey 10', sans-serif;
     color: blue;
     font-weight: 600;
+    border-top: 1px solid #333;
     border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
     padding-bottom: 30px;
 }
 
@@ -93,72 +100,3 @@ body{
     background: darkred;
 }
 
-/*media queries*/
-/*tablets*/
-@media only screen and (mid-width :481px) {
-
-    h1 {
-        font-size: 5rem;
-        padding-top: 1rem;
-    }
-
-    #outer-container {
-        padding: 1.5rem;
-    }
-
-    h2 {
-        font-size: 2.5rem;
-        padding-bottom: 2rem;
-    }
-
-    p {
-        font-size: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
-
-    .btn {
-        font-size: 1.5rem;
-        margin: 0.5rem;
-    }
-
-    #modal-content {
-        padding: 1.5rem;
-    }
-
-    input {
-        font-size: 2rem;
-    }
-
-    li {
-        font-size: 1.5rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .correct {
-        border: var(--green) 1rem solid;
-    }
-
-    /* Styling for incorrect choice */
-    .incorrect {
-        border: var(--red) 1rem solid;
-    }
-}
-
-
-
-/* Laptops */
-@media only screen and (min-width : 769px) {
-
-    h1 {
-        font-size: 6rem;
-        padding-top: 1.5rem;
-    }
-
-    p {
-        padding-bottom: 1.75rem;
-    }
-
-    #modal-content {
-        padding: 4rem;
-    }
-}

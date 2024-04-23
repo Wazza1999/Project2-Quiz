@@ -11,9 +11,7 @@ These are the features of my website:
 
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
-
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+- __The Gotta Catch Them All Logo and Heading__
 
 ![Logo](media/responsive.JPG)
 
