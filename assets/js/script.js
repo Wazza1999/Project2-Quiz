@@ -43,7 +43,7 @@ const questions = [
             { text: "Lugia", correct: false },
             { text: "Umbreon", correct: false },
         ]
-    }
+    },
 ]
 
 const questionElement = document.getElementById("question");
