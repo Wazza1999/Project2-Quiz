@@ -40,7 +40,7 @@ body{
 .quiz{
     padding: 20px 0;
 }
-
+/*answers*/
 .quiz h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
@@ -67,7 +67,7 @@ body{
     background: darkgoldenrod;
     color: #fff;
 }
-
+/* The hidden next button*/
 #next-btn{
     background: #001e4d;
     color: #fff;
