@@ -4,7 +4,7 @@ Gotta quiz them all is a online quiz designed to test your knowledge on all thin
 
 
 
-![Gotta Quiz Them All shown on a variety of different screens](media/responsive.JPG)
+![Gotta Quiz Them All shown on a variety of different screens](media/devices.JPG)
 
 ## Features 
 These are the features of my website:
@@ -13,7 +13,7 @@ These are the features of my website:
 
 - __The Gotta Catch Them All Logo and Heading__
 
-![Logo](media/responsive.JPG)
+![Logo](media/devices.JPG)
 
 - __The Game Area__
 
