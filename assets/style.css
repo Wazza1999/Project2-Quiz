@@ -63,9 +63,13 @@ body{
     cursor: pointer;
 }
 /*added hover to the buttons*/
-.btn:hover{
+.btn:hover:not([disabled]){
     background: darkgoldenrod;
     color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
 }
 /* The hidden next button*/
 #next-btn{
