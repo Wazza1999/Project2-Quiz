@@ -13,14 +13,15 @@ These are the features of my website:
 
 - __The Gotta Catch Them All Logo and Heading__
 
-![Logo](media/devices.JPG)
+-Featured at the top of the quiz, the logo and heading are easy to see for the user. Upon viewing the page, the user will be able to see the name of the game. 
+
+![Logo](media/pikachu-header.png)
 
 - __The Game Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+  - This section will allow the user to play the quiz. The user will be able to easily choose one of the four answers that are presented to them.
 
-![Game](media/love_maths_icons.png)
+![Game](media/answer.JPG)
 
 - __The Question section__
 
