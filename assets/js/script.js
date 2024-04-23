@@ -44,4 +44,8 @@ const questions = [
             {text:"Umbreon", correct: false},
         ] 
     }
-]
+];
+
+const questionElement = document.getElementById("question");
+const answerButton = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
