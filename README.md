@@ -19,40 +19,24 @@ These are the features of my website:
 
 - __The Game Area__
 
-  - This section will allow the user to play the quiz. The user will be able to easily choose one of the four answers that are presented to them.
+  - This section is where the user will be able to see the questions on the quiz. The user will be able answer the questions by picking one of the four answers in the boxes below the question.
+  The quiz will then tell the player whether or not they are correct by highlighting the correct answer in green and the wrong answer in red (if it was picked).
 
 ![Game](media/answer.JPG)
-
-- __The Question section__
-
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
-
-![Question](media/love_maths_question.png)
 
 - __The Score Area__
 
   - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
 
-![score](media/love_maths_answer.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![score](media/score.JPG)
 
 ### Features Left to Implement
 
-- Another feature idea
+- I'd like to be able to implement a feature which lets the player record their highscore and compare it to others that have played the quiz previously.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
 ### Validator Testing 
