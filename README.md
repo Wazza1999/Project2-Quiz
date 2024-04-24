@@ -93,12 +93,23 @@ All pages on the website are responsive and have:
 
 - I'd like to be able to implement a feature which lets the player record their highscore and compare it to others that have played the quiz previously. 
 
+## Accessibility
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been achieved by:
+
+* Using Semantic HTML
+
+*Using a hover state on all buttons on the site to make it cleat to the user if they are hovering over a button.
+
+*Choosing san-serif font for the site - these fonts are suitable for people with dyslexia
+
+*Ensuring there is sufficient colour contrast throughout the site.
 ### Unfixed Bugs
 
 
-## Deployment
+## Deployment & Local Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+### Deployment
+This site is deployed using Github Pages - [Gotta Quiz Them All](https://github.com/Wazza1999/Project2-Quiz)
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -107,11 +118,34 @@ This section should describe the process you went through to deploy the project 
 
 The live link can be found here - https://wazza1999.github.io/Project2-Quiz/
 
+### Local Deployment
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [Wazza1999/Project2-Quiz](https://github.com/Wazza1999/Project2-Quiz)
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+To clone the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [Wazza1999/Project2-Quiz](https://github.com/Wazza1999/Project2-Quiz)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+## Testing 
+
+Please refer to [Testing.md](testing.md) file for all testing carried out. 
+
 ### Credits - Content 
 
-- Questions and Answers were made in ChatGPT
-- 
-- The font was taken from google fonts - Jersey 10 was the font used 
+- Questions and Answers were made in ChatGPT.
+
+- The font was taken from google fonts - Jersey 10 was the font used. 
 
 ### Credits - Media
 
