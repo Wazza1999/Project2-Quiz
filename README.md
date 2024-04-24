@@ -29,7 +29,7 @@ In my css file I have used 8 different colours in my code.
 ##Typography
 Google fonts was used to import the chosen fonts for use in the site.
 
-*For the Page Title I have used the google font Jersey [Jersey-10] (https://fonts.google.com/specimen/Jersey+10) as it looks like text you would see in a video game so I thought it was fitting
+*For the Page Title I have used the google font Jersey [Jersey-10](https://fonts.google.com/specimen/Jersey+10) as it looks like text you would see in a video game so I thought it was fitting
 
 *For the question and answer font I used the font [Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif]. This wasn't a google font however.
 
@@ -38,8 +38,8 @@ As the quiz is focused on Pokemon I felt it needed imagery that was also Pokemon
 
 ## Wireframes
 Wireframes were created for mobile, tablet and desktop using balsamiq.
-![Main Page] (media/wireframes.JPG)
-![Score Page] (media/wireframes2.JPG)
+![Main Page](media/wireframes.JPG)
+![Score Page](media/wireframes2.JPG)
 
 
  
