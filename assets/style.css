@@ -17,13 +17,16 @@ body{
     background-color: blue;
     background-size: cover;
     font-family:'Jersey 10', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 /*main container*/
 .app{
     background: white;
     width: 90%; 
     max-width: 900px;
-    margin: 300px auto 0;
     border-radius: 10px;
     border-top: 5px solid #333;
     border-bottom: 5px solid #333;

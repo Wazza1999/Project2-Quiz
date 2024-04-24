@@ -32,26 +32,7 @@ These are the features of my website:
 
 ### Features Left to Implement
 
-- I'd like to be able to implement a feature which lets the player record their highscore and compare it to others that have played the quiz previously.
-
-## Testing 
-
-
-
-
-### Validator Testing 
-
-- HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwazza1999.github.io%2FProject2-Quiz%2F)
-- CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwazza1999.github.io%2FProject2-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- JavaScript
-    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
-      - The following metrics were returned: 
-      - There are 9 functions in this file.
-      - Function with the largest signature takes 1 arguments, while the median is 0.
-      - Largest function has 8 statements in it, while the median is 4.
-      - The most complex function has a cyclomatic complexity value of 2 while the median is 2.
+- I'd like to be able to implement a feature which lets the player record their highscore and compare it to others that have played the quiz previously. 
 
 ### Unfixed Bugs
 
