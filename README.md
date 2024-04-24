@@ -44,7 +44,24 @@ Wireframes were created for mobile, tablet and desktop using balsamiq.
 
  
 ## Features 
-These are the features of my website:
+The website is comprised of a home page, games page and a score page
+
+All pages on the website are responsive and have:
+
+* A favicon in the browser
+![favicon](media/Features/favicon.JPG)
+
+*The title of the site at the top of every page, The title also links back to the home page.
+![Title](media/Features/Banner.JPG)
+
+*A score page 
+![Score Page](media/Features/Score.JPG)
+
+*A next Button
+![Next Button](media/Features/Next.JPG)
+
+*The answer buttons
+![Answer Buttons](media/Features/answer.JPG)
 
 ### Existing Features
 
