@@ -144,12 +144,9 @@ To clone the repository:
 
 Please refer to [Testing.md](testing.md) file for all testing carried out. 
 
-### Solved Bugs
-| No | Bug | How I solved the issue |
-| :--- | :--- | :--- |
-| 1 | 
-| 2 |
-| 3 |
+### Known Bugs
+
+*When viewing the web page on the smallest mobile screen the header doesn't seem to fit properly despite a lot of playing around with the code and even trying media queries.
 
 ### Credits - Content 
 
