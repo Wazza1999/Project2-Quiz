@@ -6,6 +6,43 @@ Gotta quiz them all is a online quiz designed to test your knowledge on all thin
 
 ![Gotta Quiz Them All shown on a variety of different screens](media/devices.JPG)
 
+## Design
+As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users.
+I felt the white container with the blue text was the best way to see the quiz without any eye straining.
+
+In my css file I have used 8 different colours in my code. 
+
+* I have used #0000ff as the background colour in case the image fails to load
+
+* I have used #fff as the colour for the main container as it makes the contents stand out more
+
+* I have used #333 as the colour for the border of the container 
+ 
+* I have used #001e4d as the colour for the quiz Title as it stands out in fron the of the banner image without appearing too bright in contrast to the background image
+
+* I have used #b8860b as the colour for when you hover over a button as I just think it looks nice
+
+* I have used #008000 as the colour for when you pick the correct answer 
+
+* I have used #8b0000 as the colour for when you pick the incorrect answer
+
+##Typography
+Google fonts was used to import the chosen fonts for use in the site.
+
+*For the Page Title I have used the google font Jersey [Jersey-10] (https://fonts.google.com/specimen/Jersey+10) as it looks like text you would see in a video game so I thought it was fitting
+
+*For the question and answer font I used the font [Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif]. This wasn't a google font however.
+
+## Imagery 
+As the quiz is focused on Pokemon I felt it needed imagery that was also Pokemon related and quite fun to look at much like the games.
+
+## Wireframes
+Wireframes were created for mobile, tablet and desktop using balsamiq.
+![Main Page] (media/wireframes.JPG)
+![Score Page] (media/wireframes2.JPG)
+
+
+ 
 ## Features 
 These are the features of my website:
 

@@ -14,7 +14,7 @@
 /*background image with backup colour in case image doesn't load properly */
 body{
     background-image:url("../assets/images/pokemon-wallpaper.jpg");
-    background-color: blue;
+    background-color: #0000ff;
     background-size: cover;
     font-family:'Jersey 10', sans-serif;
     display: flex;
@@ -24,7 +24,7 @@ body{
 }
 /*main container*/
 .app{
-    background: white;
+    background: #fff;
     width: 90%; 
     max-width: 900px;
     border-radius: 10px;
@@ -42,7 +42,7 @@ body{
     background-size: cover;
     font-size: 70px;
     font-family: 'Jersey 10', sans-serif;
-    color: blue;
+    color: #0000ff;
     font-weight: 600;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
@@ -78,7 +78,7 @@ body{
 }
 /*added hover to the buttons*/
 .btn:hover:not([disabled]){
-    background: darkgoldenrod;
+    background: #b8860b;
     color: #fff;
 }
 
@@ -100,9 +100,9 @@ body{
 }
 
 .correct{
-    background: green;
+    background: #008000;
 }
 
 .incorrect{
-    background: darkred;
+    background: #8b0000;
 }
