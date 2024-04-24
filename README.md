@@ -68,6 +68,9 @@ All pages on the website are responsive and have:
 
 ![Answer Buttons](media/Features/answer.JPG)
 
+*Play again? button
+![Play again button](media/features/play-again.JPG)
+
 ### Existing Features
 
 - __The Gotta Catch Them All Logo and Heading__
@@ -141,6 +144,13 @@ To clone the repository:
 
 Please refer to [Testing.md](testing.md) file for all testing carried out. 
 
+### Solved Bugs
+| No | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | 
+| 2 |
+| 3 |
+
 ### Credits - Content 
 
 - Questions and Answers were made in ChatGPT.
@@ -151,3 +161,11 @@ Please refer to [Testing.md](testing.md) file for all testing carried out.
 
 - The background photo was taken from this open source site - https://wallpaper-house.com/wallpaper-id-187118.php
 - The title photo was taken from - https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a2c1192-7b12-4ddb-ac55-b677334dab1c/d5r677z-fe33c740-fa5e-4641-9366-70f0e92aeefb.png/v1/fill/w_900,h_472,q_75,strp/pikachu_twitter_header_by_kings1ngh-d5r677z.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wYTJjMTE5Mi03YjEyLTRkZGItYWM1NS1iNjc3MzM0ZGFiMWMvZDVyNjc3ei1mZTMzYzc0MC1mYTVlLTQ2NDEtOTM2Ni03MGYwZTkyYWVlZmIucG5nIiwid2lkdGgiOiI8PTkwMCIsImhlaWdodCI6Ijw9NDcyIn1dXX0._1qF1WRmsLFx-CfVtiY4AulMsPm2z-8x1fOptdJ5Qgk
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* Jubril Akolade - My code institute mentor.
+
+* Chloe Timlin - For being a great support and helping me test the website
