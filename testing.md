@@ -1,6 +1,6 @@
 # Gotta Catch Them All! -  Testing
 
-![The quiz shown on a variety of screen sizes](media/devices.JPG)
+![The quiz shown on a variety of screen sizes](media/devices.jpg)
 
 Visit the deployed site: [Gotta Test Them All!](https://github.com/Wazza1999/Project2-Quiz)
 
