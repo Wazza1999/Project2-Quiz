@@ -32,9 +32,9 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* [index.html](testing/W3C/HTML-Test.jpg) - Passed.
+* [index.html](testing/w3c/html-test.jpg) - Passed.
 
-* [style.css](testing/W3C/CSS-Test.jpg) - Passed, no errors found.
+* [style.css](testing/w3c/css-test.jpg) - Passed, no errors found.
 
 - - -
 
@@ -42,7 +42,7 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-* [javascript.js](testing/W3C/Jshint.jpg) - Passed
+* [javascript.js](testing/w3c/jshint.jpg) - Passed
 - - -
 
 ### Lighthouse
