@@ -32,9 +32,9 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* [index.html](Testing/W3C/HTML-Test.JPG) - Passed.
+* [index.html](testing/W3C/HTML-Test.jpg) - Passed.
 
-* [style.css](Testing/W3C/CSS-Test.JPG) - Passed, no errors found.
+* [style.css](testing/W3C/CSS-Test.jpg) - Passed, no errors found.
 
 - - -
 
@@ -42,7 +42,7 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-* [javascript.js](Testing/W3C/Jshint.JPG) - Passed
+* [javascript.js](testing/W3C/Jshint.jpg) - Passed
 - - -
 
 ### Lighthouse
@@ -53,13 +53,13 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 All pages of the site are achieving a score of 100 in accessibility and best practices, performance, SEO categories.
 
-![index.html](Testing/lighthouse/lighthouse-desktop.JPG)
+![index.html](testing/lighthouse/lighthouse-desktop.jpg)
 
 ### Mobile Results
 
 Each page is achieving a score of 100 for the last three categories. The performance category is achieving a score of 98 for the first three pages and a score of 99 on the 404 & 500 page.
 
-![index.html](Testing/lighthouse/lighthouse-mobile.JPG)
+![index.html](testing/lighthouse/lighthouse-mobile.jpg)
 - - -
 
 ### Full Testing
