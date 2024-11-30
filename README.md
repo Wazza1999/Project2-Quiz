@@ -50,23 +50,23 @@ All pages on the website are responsive and have:
 
 - A favicon in the browser
 
-![favicon](media/Features/favicon.jpg)
+![favicon](media/features/favicon.jpg)
 
 The title of the site at the top of every page, The title also links back to the home page.
 
-![Title](media/Features/Banner.jpg)
+![Title](media/features/Banner.jpg)
 
 A score page
 
-![Score Page](media/Features/Score.jpg)
+![Score Page](media/features/Score.jpg)
 
 A next Button
 
-![Next Button](media/Features/Next.jpg)
+![Next Button](media/features/Next.jpg)
 
 The answer buttons
 
-![Answer Buttons](media/Features/answer.jpg)
+![Answer Buttons](media/features/answer.jpg)
 
 Play again? button
 ![Play again button](media/features/play-again.jpg)
