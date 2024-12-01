@@ -79,6 +79,14 @@ Additional testing was taken by friends and family on a variety of devices and s
 
 One tester in peer code review stated that the bottom of the play screen was cut off when testing on an iphone SE (2nd gen). I was unable to replicate this issue using google chrome developer tools.
 
+During development of the Javascript code there was an error found through devtools console that said there was an error becuase the properties were undefined in the setQuestion line of code, however I was able to fix this issue and was able to pass the code through jshint. 
+
+![Testing1](testing/dev-tools/test1.jpg)
+
+There was also another bug discovered in dev tools that stated there was an issue with the event listeners I had added but this was eventually fixed and the code was able to pass through jshint.
+
+![Testing2](testing/dev-tools/testing2.jpg)
+
 `Main Page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
