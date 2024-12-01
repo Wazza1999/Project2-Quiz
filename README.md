@@ -13,17 +13,11 @@ In my css file I have used 8 different colours in my code.
 
 - I have used #0000ff as the background colour in case the image fails to load
 
-- I have used #fff as the colour for the main container as it makes the contents stand out more
+- I have used lightblue as the colour for the main container as it makes the contents stand out more
 
-- I have used #333 as the colour for the border of the container
-
-- I have used #001e4d as the colour for the quiz Title as it stands out in fron the of the banner image without appearing too bright in contrast to the background image
+- I have used black as the colour for the border of the container
 
 - I have used #b8860b as the colour for when you hover over a button as I just think it looks nice
-
-- I have used #008000 as the colour for when you pick the correct answer
-
-- I have used #8b0000 as the colour for when you pick the incorrect answer
 
 ##Typography
 Google fonts was used to import the chosen fonts for use in the site.
@@ -74,9 +68,9 @@ An Alert for whenever the user clicks the wrong answer.
 - **The Game Area**
 
   - This section is where the user will be able to see the questions on the quiz. The user will be able answer the questions by picking one of the four answers in the boxes below the question.
-    The quiz will then tell the player whether or not they are correct by highlighting the correct answer in green and the wrong answer in red (if it was picked).
+    The quiz will then tell the player whether or not they are correct by showing an alert telling them if they're incorrect.
 
-![Game](media/answer.jpg)
+![Game](media//features/answer.jpg)
 
 ### Features Left to Implement
 
