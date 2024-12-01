@@ -21,6 +21,7 @@ body {
   border: 8px ridge black;
   padding: 10%;
   background-color: lightblue;
+  border-radius: 25px;
 }
 /*Header*/
 .app h1 {
@@ -31,15 +32,24 @@ body {
   margin-top: -100px;
   font-size: 340%;
   font-family: "Jersey 10", sans-serif;
-  color: #0000ff;
+  color: black;
   font-weight: 600;
   border: 4px ridge black;
   padding: 60px;
   text-align: center;
+  border-radius: 25px;
 }
 
 .quiz {
   padding: 20px 0;
+}
+
+/*The question styling*/
+.logo{
+  background-color: white;
+  text-align: center;
+  border: 4px ridge black;
+  border-radius: 25px;
 }
 /*answers*/
 .quiz h2 {
@@ -53,11 +63,12 @@ body {
 #answer-buttons {
   border: 4px ridge black;
   background-color: grey;
+  border-radius: 25px ;
 }
 /*button for the answers*/
 .btn {
   background: #fff;
-  color: #222;
+  color: black;
   font-size: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 500;
@@ -66,7 +77,7 @@ body {
   padding: 10px;
   margin: 10px 0;
   text-align: left;
-  border-radius: 4px;
+  border-radius: 25px;
   cursor: pointer;
 }
 /*added hover to the buttons*/
@@ -91,13 +102,15 @@ body {
   cursor: pointer;
   display: none;
 }
-
-.correct {
+/*correct colour*/
+#correct {
   background: #008000;
+  display:none;
 }
-
-.incorrect {
+/*incorrect colour*/
+#incorrect {
   background: #8b0000;
+  display:none;
 }
 
 /*Media Quieries for laptops*/

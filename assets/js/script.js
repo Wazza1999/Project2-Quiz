@@ -1,3 +1,4 @@
+
 //Questions for the quiz//
 
 //question 1//
@@ -44,5 +45,8 @@ answers:[
     },
 ];
 
-
+//All Declared Variables//
+const questionElement = document.getElementById("question")
+const answerButton = document.getElementById("answer-buttons")
+const nextButton = document.getElementById("next-btns")
 
