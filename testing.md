@@ -59,7 +59,7 @@ All pages of the site are achieving a score of 100 in accessibility and best pra
 
 Each page is achieving a score of 100 for the last three categories. The performance category is achieving a score of 98 for the first three pages and a score of 99 on the 404 & 500 page.
 
-![index.html](testing/lighthouse/lighthouse-mobile.jpg)
+![index.html](testing/lighthouse/accessibility2.jpg)
 - - -
 
 ### Full Testing
