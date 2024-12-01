@@ -2,7 +2,7 @@
 
 Gotta quiz them all is a online quiz designed to test your knowledge on all things pokemon. This site hopes to demonstrate how pure Javascript works in a real-world context. Gotta Catch Them All is a fully responsive Javascript quiz game that will allow users to have fun putting their knowledge to the test to see whether or not they have what it takes to become a Pokemon Master!!!
 
-![Gotta Quiz Them All shown on a variety of different screens](media/devices.jpg)
+![Gotta Quiz Them All shown on a variety of different screens](media/features/mockup.jpg)
 
 ## Design
 
@@ -39,8 +39,7 @@ As the quiz is focused on Pokemon I felt it needed imagery that was also Pokemon
 ## Wireframes
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
-![Main Page](media/wireframes.jpg)
-![Score Page](media/wireframes2.jpg)
+![Main Page](media/features/wireframe.jpg)
 
 ## Features
 
@@ -61,7 +60,7 @@ The answer buttons
 ![Answer Buttons](media/features/answer.jpg)
 
 An Alert for whenever the user clicks the wrong answer.
-![Incorrect Alert](media/features/alert.JPG)
+![Incorrect Alert](media/features/alert.jpg)
 
 
 ### Existing Features
@@ -70,7 +69,7 @@ An Alert for whenever the user clicks the wrong answer.
 
 -Featured at the top of the quiz, the logo and heading are easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-![Logo](media/pikachu-header.png)
+![Logo](images/pikachu-header.png)
 
 - **The Game Area**
 

@@ -1,6 +1,6 @@
 # Gotta Catch Them All! -  Testing
 
-![The quiz shown on a variety of screen sizes](media/devices.jpg)
+![The quiz shown on a variety of screen sizes](media/wireframe.jpg)
 
 Visit the deployed site: [Gotta Test Them All!](https://github.com/Wazza1999/Project2-Quiz)
 
@@ -86,15 +86,12 @@ One tester in peer code review stated that the bottom of the play screen was cut
 | The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
 | Answer buttons| The answer buttons should turn green or red respectively when selected to correspond with the right and wrong answer| Clicked button | buttons colours change | Pass |
 | All buttons - hover effect | All buttons should turn dark goldenrod when hovering over with the cursor | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| Next Button | Should go to the next question when clicked on by the cursor | Click button | Advances to next question | Pass |
+
 
 
 `End of Quiz`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| The Sites title | Link directs the user back to the home page | User clicks on quiz answers again | Quiz starts again | Pass |
 | All buttons - hover effect | All buttons change to the colour dark goldenrod when hovering over with the cursor | Hover over each button on the page | Each button displayed the correct styling when hovered over | Pass |
-| Score Display | The Your Score area should populate with the score you have achieved | I added my score as I played, checked the score on the last question & compared to the score displayed | The score displays correctly | Pass |
-| Play again? button | Clicking on this button will return you to the start of the game page | Clicked on the play again? button | Directed to the beginning of the game.| Pass |
-| Home button | Clicking on this button will take you back to the home page | Clicked the home button | Directed back to the home page | Pass |
