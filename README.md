@@ -56,20 +56,13 @@ The title of the site at the top of every page, The title also links back to the
 
 ![Title](media/features/Banner.jpg)
 
-A score page
-
-![Score Page](media/features/Score.jpg)
-
-A next Button
-
-![Next Button](media/features/Next.jpg)
-
 The answer buttons
 
 ![Answer Buttons](media/features/answer.jpg)
 
-Play again? button
-![Play again button](media/features/play-again.jpg)
+An Alert for whenever the user clicks the wrong answer.
+![Incorrect Alert](media/features/alert.JPG)
+
 
 ### Existing Features
 
@@ -85,12 +78,6 @@ Play again? button
     The quiz will then tell the player whether or not they are correct by highlighting the correct answer in green and the wrong answer in red (if it was picked).
 
 ![Game](media/answer.jpg)
-
-- **The Score Area**
-
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided.
-
-![score](media/score.jpg)
 
 ### Features Left to Implement
 
@@ -155,7 +142,7 @@ When viewing the web page on the smallest mobile screen the header doesn't seem 
 
 - Questions and Answers were made in ChatGPT.
 
-- I used the tutorial from - https://projects.sparkifysolutions.com/quiz-app-using-javascript/ as inspiration for the design of the quiz but all code is original and made by me.
+- I used the tutorial from - https://projects.sparkifysolutions.com/quiz-app-using-javascript/ as inspiration for the design of the quiz.
 
 - The font was taken from google fonts - Jersey 10 was the font used.
 
