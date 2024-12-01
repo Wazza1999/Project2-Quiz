@@ -12,7 +12,7 @@ body {
   align-items: center;
   height: 100vh;
 }
-/*main container*/
+/*main container css from https://projects.sparkifysolutions.com/quiz-app-using-javascript/ was used as inspiration */
 .app {
   background: #fff;
   width: 100%;
