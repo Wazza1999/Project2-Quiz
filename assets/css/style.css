@@ -31,7 +31,7 @@ body{
     padding: 100px;
     background-color: lightblue;
 }
-/*Question title*/
+/*Header*/
 .app h1{
     background-image: url("../../assets/images/pikachu-header.png");
     background-color: #fff;
@@ -101,4 +101,11 @@ body{
 
 .incorrect{
     background: #8b0000;
+}
+
+
+/*Media Quieries for mobile*/
+@media only screen and (max-width: 320px){
+
+    /*
 }
