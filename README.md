@@ -155,6 +155,8 @@ When viewing the web page on the smallest mobile screen the header doesn't seem 
 
 - Questions and Answers were made in ChatGPT.
 
+- I used the tutorial from - https://projects.sparkifysolutions.com/quiz-app-using-javascript/ as inspiration for the design of the quiz but all code is original and made by me.
+
 - The font was taken from google fonts - Jersey 10 was the font used.
 
 ### Credits - Media
