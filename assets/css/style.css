@@ -13,7 +13,7 @@
 }
 /*background image with backup colour in case image doesn't load properly */
 body{
-    background-image:url("../assets/images/pokemon-wallpaper.jpg");
+    background-image:url("../../assets/images/pokemon-wallpaper.jpg");
     background-color: #0000ff;
     background-size: cover;
     font-family:'Jersey 10', sans-serif;
@@ -25,18 +25,15 @@ body{
 /*main container*/
 .app{
     background: #fff;
-    width: 90%; 
-    max-width: 900px;
-    border-radius: 10px;
-    border-top: 5px solid #333;
-    border-bottom: 5px solid #333;
-    border-left: 5px solid #333;
-    border-right: 5px solid #333;
-    padding: 30px;
+    width: 100%; 
+    max-width: 1500px;
+    border: 4px ridge black;
+    padding: 100px;
+    background-color: lightblue;
 }
 /*Question title*/
 .app h1{
-    background-image: url(../assets/images/pikachu-header.png);
+    background-image: url("../../assets/images/pikachu-header.png");
     background-color: #fff;
     background-position: center;
     background-size: cover;
@@ -44,11 +41,10 @@ body{
     font-family: 'Jersey 10', sans-serif;
     color: #0000ff;
     font-weight: 600;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
-    padding-bottom: 30px;
+    border: 4px ridge black;
+    padding: 60px;
+    text-align: center;
+    flex: ;
 }
 
 .quiz{
@@ -58,7 +54,7 @@ body{
 .quiz h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 35px;
-    color: #001e4d;
+    color: black;
     font-weight: 600;
 }
 /*button for the answers*/
@@ -69,7 +65,7 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     width: 100%;
-    border: 1px solid #222;
+    border: 4px ridge black;
     padding: 10px;
     margin: 10px 0;
     text-align: left;
