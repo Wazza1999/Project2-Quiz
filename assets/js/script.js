@@ -61,9 +61,9 @@ const setQuestion = () => {
   document.getElementById("answer2").innerText = question.answers[1].text;
   document.getElementById("answer3").innerText = question.answers[2].text;
   document.getElementById("answer4").innerText = question.answers[3].text;
-  //add event listeners//
 };
 
+//add event listeners//
 document.getElementById("answer1").addEventListener("click", () => {
   var question = questions[questionNumber];
 
