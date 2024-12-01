@@ -63,7 +63,7 @@ An Alert for whenever the user clicks the wrong answer.
 
 -Featured at the top of the quiz, the logo and heading are easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-![Logo](images/pikachu-header.png)
+![Logo](assets/images/pikachu-header.png)
 
 - **The Game Area**
 
