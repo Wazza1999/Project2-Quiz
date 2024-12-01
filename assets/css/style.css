@@ -1,111 +1,121 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&display=swap");
 
 /* Overide default styles added by the browser*/
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Jersey 10', sans-serif;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jersey 10", sans-serif;
+  box-sizing: border-box;
 }
 /*background image with backup colour in case image doesn't load properly */
-body{
-    background-image:url("../../assets/images/pokemon-wallpaper.jpg");
-    background-color: #0000ff;
-    background-size: cover;
-    font-family:'Jersey 10', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  background-image: url("../../assets/images/pokemon-wallpaper.jpg");
+  background-color: #0000ff;
+  background-size: cover;
+  font-family: "Jersey 10", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 /*main container*/
-.app{
-    background: #fff;
-    width: 100%; 
-    max-width: 1500px;
-    border: 4px ridge black;
-    padding: 100px;
-    background-color: lightblue;
+.app {
+  background: #fff;
+  width: 100%;
+  max-width: 1500px;
+  border: 4px ridge black;
+  padding: 10%;
+  background-color: lightblue;
 }
 /*Header*/
-.app h1{
-    background-image: url("../../assets/images/pikachu-header.png");
-    background-color: #fff;
-    background-position: center;
-    background-size: cover;
-    font-size: 70px;
-    font-family: 'Jersey 10', sans-serif;
-    color: #0000ff;
-    font-weight: 600;
-    border: 4px ridge black;
-    padding: 60px;
-    text-align: center;
-    flex: ;
+.app h1 {
+  background-image: url("../../assets/images/pikachu-header.png");
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  font-size: 340%;
+  font-family: "Jersey 10", sans-serif;
+  color: #0000ff;
+  font-weight: 600;
+  border: 4px ridge black;
+  padding: 60px;
+  text-align: center;
 }
 
-.quiz{
-    padding: 20px 0;
+.quiz {
+  padding: 20px 0;
 }
 /*answers*/
-.quiz h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 35px;
-    color: black;
-    font-weight: 600;
+.quiz h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 35px;
+  color: black;
+  font-weight: 600;
 }
 /*button for the answers*/
-.btn{
-    background: #fff;
-    color: #222;
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 500;
-    width: 100%;
-    border: 4px ridge black;
-    padding: 10px;
-    margin: 10px 0;
-    text-align: left;
-    border-radius: 4px;
-    cursor: pointer;
+.btn {
+  background: #fff;
+  color: #222;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  width: 100%;
+  border: 4px ridge black;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
 }
 /*added hover to the buttons*/
-.btn:hover:not([disabled]){
-    background: #b8860b;
-    color: #fff;
+.btn:hover:not([disabled]) {
+  background: #b8860b;
+  color: #fff;
 }
 
-.btn:disabled{
-    cursor: no-drop;
+.btn:disabled {
+  cursor: no-drop;
 }
 /* The hidden next button*/
-#next-btn{
-    background: #001e4d;
-    color: #fff;
-    font-weight: 500;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
-    cursor: pointer;
-    display: none;
+#next-btn {
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
 }
 
-.correct{
-    background: #008000;
+.correct {
+  background: #008000;
 }
 
-.incorrect{
-    background: #8b0000;
+.incorrect {
+  background: #8b0000;
 }
-
 
 /*Media Quieries for mobile*/
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
 
-    /*
+    /*main container*/
+.app{
+    width: 100%;
+    max-width: 320px
+}
+
+    /*Header*/
+  .app h1 {
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    font-size: 340%;
+  }
 }
