@@ -53,7 +53,7 @@ const nextButton = document.getElementById("next-btns")
 
 const setQuestion = ()=> {
 //set question text//
-var question=questions[0]
+var question=questions[questionNumber]
 document.getElementById("question").innerText=question.question
 
 //set answer text//
@@ -61,5 +61,27 @@ document.getElementById("answer1").innerText=question.answers[0].text
 document.getElementById("answer2").innerText=question.answers[1].text
 document.getElementById("answer3").innerText=question.answers[2].text
 document.getElementById("answer4").innerText=question.answers[3].text
-//add evetn listeners//
+//add event listeners//
 }
+
+document.getElementById("answer1").addEventListener("click",()=>{
+    var question=questions[questionNumber]
+
+if(question.answers[0].correct){questionNumber=questionNumber+1;setQuestion()}else{alert("Incorrect!")} 
+})
+document.getElementById("answer2").addEventListener("click",()=>{
+    var question=questions[questionNumber]
+
+if(question.answers[1].correct){questionNumber=questionNumber+1;setQuestion()}else{alert("Incorrect!")} 
+})
+document.getElementById("answer3").addEventListener("click",()=>{
+    var question=questions[questionNumber]
+
+if(question.answers[2].correct){questionNumber=questionNumber+1;setQuestion()}else{alert("Incorrect!")} 
+})
+document.getElementById("answer4").addEventListener("click",()=>{
+    var question=questions[questionNumber]
+
+if(question.answers[3].correct){questionNumber=questionNumber+1;setQuestion()}else{alert("Incorrect!")} 
+})
+setQuestion()
