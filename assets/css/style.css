@@ -1,13 +1,6 @@
 /* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Jersey+10&display=swap");
 
-/* Overide default styles added by the browser*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Jersey 10", sans-serif;
-  box-sizing: border-box;
-}
 /*background image with backup colour in case image doesn't load properly */
 body {
   background-image: url("../../assets/images/pokemon-wallpaper.jpg");
@@ -23,8 +16,9 @@ body {
 .app {
   background: #fff;
   width: 100%;
-  max-width: 1500px;
-  border: 4px ridge black;
+  max-width: 1000px;
+  max-height: 500px;
+  border: 8px ridge black;
   padding: 10%;
   background-color: lightblue;
 }
@@ -34,6 +28,7 @@ body {
   background-color: #fff;
   background-position: center;
   background-size: cover;
+  margin-top: -100px;
   font-size: 340%;
   font-family: "Jersey 10", sans-serif;
   color: #0000ff;
@@ -52,6 +47,12 @@ body {
   font-size: 35px;
   color: black;
   font-weight: 600;
+}
+
+/*border around the question and answers*/
+#answer-buttons {
+  border: 4px ridge black;
+  background-color: grey;
 }
 /*button for the answers*/
 .btn {
@@ -99,12 +100,55 @@ body {
   background: #8b0000;
 }
 
-/*Media Quieries for mobile*/
-@media only screen and (max-width: 320px) {
+/*Media Quieries for laptops*/
+@media only screen and (max-width: 1440px) {
 
-    /*Header*/
+  /*Max height for .app*/
+  .app{
+    max-height: 500px;
+  }
+
+  /*Header*/
   .app h1 {
-    padding: 20px;
+    padding: 10px;
+    margin-top: -20px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 50px;
+  }
+
+  #answer-buttons {
+    margin-top: -20px;
+  }
+}
+
+/*Media Quieries for mobile*/
+@media only screen and (max-width: 320px) {
+  /*body*/
+  body {
+    height: 100vh;
+  }
+
+  .app{
+    max-height: none;
+  }
+
+  /*Header*/
+  .app h1 {
+    padding: 10px;
+    margin-top: -20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  /*The question and answers*/
+  #answer-buttons {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
