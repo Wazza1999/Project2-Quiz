@@ -53,7 +53,7 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 All pages of the site are achieving a score of 100 in accessibility and best practices, performance, SEO categories.
 
-![index.html](testing/lighthouse/lighthouse-desktop.jpg)
+![index.html](testing/lighthouse/accessibility.jpg)
 
 ### Mobile Results
 
