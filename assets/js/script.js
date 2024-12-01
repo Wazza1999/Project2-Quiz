@@ -1,8 +1,3 @@
-//All declared variables//
-const answerButton = document.getElementById(answer.buttons);
-const nextButton = document.getElementById(next - btn);
-const questionElement = document.getElementById(question);
-
 //Questions for the quiz//
 //question 1//
 const questions = [
@@ -28,22 +23,23 @@ answers:[
     },
 //Question3//
 {
-    question: '',
+    question: 'Which of these Pokémon is known for its ability to learn and transform into any other Pokémon using the move Transform?',
     answers:[
-        {text:"", correct: true}
-        {text:"", correct: false}
-        {text:"", correct: false}
-        {text:"", correct: false}
+        {text:"Ditto", correct: true}
+        {text:"Mew", correct: false}
+        {text:"Porygon", correct: false}
+        {text:"Zoroark", correct: false}
     ]
     },
 //Question4//
 {
-    question: '',
+    question: 'Which of these Pokémon has a unique type combination that no other Pokémon had at the time of its introduction?',
     answers:[
-        {text:"", correct: true}
-        {text:"", correct: false}
-        {text:"", correct: false}
-        {text:"", correct: false}
+        {text:"Giratina", correct: false}
+        {text:"Aegislash", correct: false}
+        {text:"Darkrai", correct: false}
+        {text:"Volcanion", correct: true}
     ]
     },
 ];
+
