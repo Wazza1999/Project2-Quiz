@@ -52,6 +52,8 @@ const answerButton = document.getElementById("answer-buttons")
 const nextButton = document.getElementById("next-btns")
 
 const setQuestion = ()=> {
+//Reset Question Number if it's too big//
+if (questionNumber>=questions.length){questionNumber=0}
 //set question text//
 var question=questions[questionNumber]
 document.getElementById("question").innerText=question.question
