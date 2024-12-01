@@ -102,16 +102,6 @@ body {
   cursor: pointer;
   display: none;
 }
-/*correct colour*/
-#correct {
-  background: #008000;
-  display:none;
-}
-/*incorrect colour*/
-#incorrect {
-  background: #8b0000;
-  display:none;
-}
 
 /*Media Quieries for laptops*/
 @media only screen and (max-width: 1440px) {

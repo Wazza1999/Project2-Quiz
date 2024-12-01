@@ -1,6 +1,6 @@
 
 //Questions for the quiz//
-
+var questionNumber=0;
 //question 1//
 const questions = [
 {
@@ -12,6 +12,7 @@ answers:[
     {text:"Deoxsys-Speed", correct: true},
 ]
 },
+
 
 //Question 2//
 {
@@ -50,3 +51,15 @@ const questionElement = document.getElementById("question")
 const answerButton = document.getElementById("answer-buttons")
 const nextButton = document.getElementById("next-btns")
 
+const setQuestion = ()=> {
+//set question text//
+var question=questions[0]
+document.getElementById("question").innerText=question.question
+
+//set answer text//
+document.getElementById("answer1").innerText=question.answers[0].text
+document.getElementById("answer2").innerText=question.answers[1].text
+document.getElementById("answer3").innerText=question.answers[2].text
+document.getElementById("answer4").innerText=question.answers[3].text
+//add evetn listeners//
+}

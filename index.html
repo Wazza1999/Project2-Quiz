@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Page Title-->
     <title>Gotta Quiz Them All!</title>
 
     <!-- Stylesheets-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-</head>
-<!-- Used https://projects.sparkifysolutions.com/quiz-app-using-javascript/ as inspiration for the html but changed the structure a little bit so I'm not completely copying it. -->
-<body>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+  </head>
+  <!-- Used https://projects.sparkifysolutions.com/quiz-app-using-javascript/ as inspiration for the html but changed the structure a little bit. -->
+  <body>
     <!-- Quiz title -->
     <div class="app">
-        <h1>Gotta Quiz Them All!</h1>
-        <div class="quiz" id="answer-buttons">
-            <!-- Quiz Questions -->
-            <h2 id="question" class="logo">question goes here</h2>
-            <!-- Answer buttons -->
-                <button class="btn">answer1</button>
-                <button class="btn">answer2</button>
-                <button class="btn">answer3</button>
-                <button class="btn">answer4</button>
-            </div>
-            <!-- Next button -->
-            <button id="next-btn">Next</button>
-
-            <!-- Correct and Incorrect Buttons-->
-             <div id="correct">Correct</div>
-             <div id="incorrect">Incorrect</div>
-        </div>
+      <h1>Gotta Quiz Them All!</h1>
+      <div class="quiz" id="answer-buttons">
+        <!-- Quiz Questions -->
+        <h2 id="question" class="logo">question goes here</h2>
+        <!-- Answer buttons -->
+        <button class="btn" id="answer1">answer1</button>
+        <button class="btn" id="answer2">answer2</button>
+        <button class="btn" id="answer3">answer3</button>
+        <button class="btn" id="answer4">answer4</button>
+      </div>
+      <!-- Next button -->
+      <button id="next-btn">Next</button>
     </div>
     <!-- linked javascript to the html -->
     <script src="assets/js/script.js"></script>
-
-</body>
-
+  </body>
 </html>
