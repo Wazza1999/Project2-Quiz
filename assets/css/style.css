@@ -45,7 +45,7 @@ body {
 }
 
 /*The question styling*/
-.logo{
+.logo {
   background-color: white;
   text-align: center;
   border: 4px ridge black;
@@ -63,7 +63,7 @@ body {
 #answer-buttons {
   border: 4px ridge black;
   background-color: grey;
-  border-radius: 25px ;
+  border-radius: 25px;
 }
 /*button for the answers*/
 .btn {
@@ -105,9 +105,8 @@ body {
 
 /*Media Quieries for laptops*/
 @media only screen and (max-width: 1440px) {
-
   /*Max height for .app*/
-  .app{
+  .app {
     max-height: 500px;
   }
 
@@ -133,7 +132,7 @@ body {
     height: 100vh;
   }
 
-  .app{
+  .app {
     max-height: none;
   }
 
